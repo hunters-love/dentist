@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Dental Bonding",
+        "price": 100,
+        "details": "Dental bonding is a technique used to correct imperfections with your teeth to give you a better-looking smile. Bonding is used to repair chipped teeth, decayed teeth, and cracked teeth.",
+        "img": "https://www.isaacsongentledentistry.com/images/cleaning.jpg"
+    },
+    {
+        "id": 2,
+        "name": " Dental Crowns",
+        "price": 1100,
+        "details": " A dental crown is a dental prosthesis which replaces the visible part of a tooth. A dental crown functions to strengthen teeth, restore their original shape, and improve their appearance. ",
+        "img": "https://image.shutterstock.com/image-illustration/dental-crown-installation-process-medically-600w-611274782.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bridgework",
+        "price": 1200,
+        "details": " A dental bridge is a structure between two dental crowns to fill the gap between missing teeth. A bridge can be supported by your teeth, implants, or a combination of teeth and implants. ",
+        "img": "https://westcoastinternational.com/wp-content/uploads/2018/05/dental-bridges-advantages.jpg"
+    },
+    {
+        "id": 4,
+        "name": " Cosmetic Fillings",
+        "price": 1300,
+        "details": " Cosmetic fillings, or tooth- colored fillings, are made of composite resin and glass particles. They are cemented onto the existing teeth using a bonding agent. ",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqK7fFZHl0lp4HX5Lqy9Ta2mvMOQKtaRxazg&usqp=CAU"
+    },
+    {
+        "id": 5,
+        "name": " Invisalign",
+        "price": 1400,
+        "details": " Crooked smile? Invisalign is the best way to straighten your smile without interfering with your day-to-day life. Invisalign gradually moves your teeth using a series of custom-fitted, removable aligners",
+        "img": " https://media.istockphoto.com/photos/beautiful-smile-and-white-teeth-of-a-young-woman-picture-id984116440?k=20&m=984116440&s=612x612&w=0&h=LGdnBCzEhMB19ZLWkMiSJyGY6expgyAbgtfJr-DzZY8="
+    },
+    {
+        "id": 6,
+        "name": " Dental Veneers",
+        "price": 1500,
+        "details": " Many people are discovering the benefits of veneers. Veneers are thin coverings that are placed over the front part of the teeth. Veneers are placed on teeth that are crooked, poorly shaped, or severely discolored.",
+        "img": " https://media.istockphoto.com/photos/dental-veneer-installation-procedure-over-central-incisor-3d-picture-id1206778381?k=20&m=1206778381&s=612x612&w=0&h=ymt8B93gbPOPxY73Bz68A0Ounfpa4X6a0oSZdLJhVJk="
+    }
+]
