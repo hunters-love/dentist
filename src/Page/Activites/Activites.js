@@ -10,7 +10,7 @@ const Activites = () => {
             .then(data => setActivites(data))
     }, [])
     return (
-        <div className="row">
+        <div className="row" >
             <h3>our-activites</h3>
             {
                 activites.map(activited => <Activite

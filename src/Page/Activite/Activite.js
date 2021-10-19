@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 // import "./Activite.css "
 
 const Activite = ({ allActivity }) => {
@@ -16,9 +17,11 @@ const Activite = ({ allActivity }) => {
                         <p>{details}</p>
                     </Card.Text>
                     <Card.Text>
-                        <h4>{price}</h4>
+                        <h4>${price}</h4>
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Link to={`/booking/${id}`}>
+                        <Button variant="primary">Book {name}</Button>
+                    </Link>
                 </Card.Body>
             </Card>
 
