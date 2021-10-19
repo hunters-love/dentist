@@ -12,6 +12,9 @@ import Booking from './Page/Booking/Booking/Booking';
 import Login from './Page/Login/Login/Login';
 import Header from './Page/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
+import PrivetRoute from './Page/Login/PrivetRoute/PrivetRoute';
+import Footer from './Page/Footer/Footer';
+
 
 function App() {
 
@@ -36,9 +39,9 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route exact path="/booking/:serviceId">
+            < PrivetRoute exact path="/booking/:serviceId">
               <Booking></Booking>
-            </Route>
+            </ PrivetRoute>
 
             <Route exact path="/activites">
               <Activites></Activites>
@@ -57,6 +60,8 @@ function App() {
             </Route>
 
           </Switch>
+          <Footer></Footer>
+
         </BrowserRouter>
       </AuthProvider>
 
